@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-size: center ,cover; }
+body { margin: 0; padding: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.v-middle{
+    vertical-align: middle;
+}
+
+.black{
+    color: rgb(0,0,0);
+}
+.navy{
+    color: rgb(21,0,80);
+}
+.purple{
+    color:rgb(63,0,113);
+}
+.pink{
+    color:rgb(251,37,118);
+}
+.white{
+    color: rgb(255,255,255);
+}

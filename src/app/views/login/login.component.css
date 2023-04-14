@@ -1,0 +1,12 @@
+.menulogin{
+  background-color:#fff;
+}
+
+#tablogin{
+  display: grid;
+  text-align: center;
+  position: initial;
+  background: white;
+  padding-top: 10%;
+  overflow: hidden;
+}

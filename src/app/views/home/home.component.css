@@ -1,0 +1,123 @@
+.home .title {
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding-left: 550px;
+    
+    }
+
+.home .subtitle {
+    font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    padding-left: 830px;
+    font-style: oblique;
+    font-weight: bolder;
+    background-size: cover;
+    align-items: center;
+}
+
+.main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-size: cover;
+background-color: #0F044C;
+position: fixed;
+min-height: 81%;
+margin-left: -10px;
+
+}
+
+.title  {
+  background-color:#0F044C;
+  font:color rgb(255,255,255)
+}
+.subtitle{
+  background-color:#0F044C;
+  font:color rgb(155,255,255)
+}
+
+#card{
+background-color: red;
+  font-family:monospace sans-serif ;
+  width:25rem;
+  height: 15rem;
+  border-radius: 10px;
+  box-shadow: 5px 8px 8px black;
+  flex-direction: column;
+  margin-left: 215px;
+  
+}
+#title0{
+  font-family: cursive;
+  color: white;
+}
+
+#sub1{
+  margin-top:25px;
+  font-family: cursive;
+  font-size: initial;
+  color: white;
+}
+#sub4{
+  margin-top: 13px;
+  font-size: 1.7rem;
+  font-family: cursive;
+  
+}
+
+#acount{
+  margin-top: 50px;
+  font-size:1.7rem;
+  color: white;
+}
+
+
+ .divone{ 
+   padding-left: 150px;
+ }
+ #divleft{
+
+  background-color: #0F044C;
+ }
+
+ #divrigth{
+  background-color: white;
+  width: 860px;
+
+ }
+ 
+ #name{
+  font-family: monospace;
+ }
+
+ #table{
+  font-style: oblique;
+  box-shadow: 5px 5px 8px 8px black;
+  }
+
+  #div3-botoes{
+    margin-left: 175px;
+    margin-top: 40px;
+  }
+
+  #button1 , #button2 {
+    box-shadow: 5px 8px 8px black;
+    margin-left: 33px;
+    color:black ;
+  }
+
+#div2-saldoConta{
+font-size: 56px;
+margin-top: 140px;
+margin-left: 215px;
+color: white;
+}
+
+#divmoviment{
+  font-size: 56px;
+  margin-top: 36px;
+  margin-left: 215px;
+  color:black;
+  margin-bottom: 34px;
+}

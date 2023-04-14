@@ -1,0 +1,65 @@
+<mat-card class="home mat-elevatio-z5">
+  <mat-card-title class="title white">
+    Bem Vindo ao SYS Banking
+  </mat-card-title>
+  <mat-card-subtitle class="subtitle white">
+    sua conta SYS
+  </mat-card-subtitle>
+</mat-card>
+
+<div class="main">
+  <div id="divleft" class=" mat-elevation-z8">
+      <mat-card id="card"><mat-card-header>
+        <mat-card-title-group>
+          <mat-card-title id="title0" >João Batista</mat-card-title>
+          <mat-card-subtitle id="sub1"> SYS Conta
+            <h4 id="sub4">Debit</h4>
+          </mat-card-subtitle>
+          <mat-card-subtitle id="acount"> PT50 0000 1111 2222 3333 </mat-card-subtitle>
+          </mat-card-title-group>
+      </mat-card-header >
+      </mat-card>
+    
+
+    <div id="div2-saldoConta">€25.758,98</div>
+
+    <div id="div3-botoes">
+      <button id="button1" mat-raised-button (click)="addLive()" >Retirar Fundos</button>
+      <button id="button2" mat-raised-button (click)="AddFundos()">Adicionar Fundos</button>
+    </div>
+    </div>
+
+
+  <div id="divrigth" class="divione mat-elevation-z8">
+    <div id="divmoviment">Lista de Movimentos</div>
+    <table id="table" mat-table [dataSource]="dataSource">
+
+      <!-- Position Column -->
+      <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+      </ng-container>
+
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+
+      <!-- Weight Column -->
+      <ng-container matColumnDef="price">
+        <th mat-header-cell *matHeaderCellDef> price </th>
+        <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+      </ng-container>
+
+      <!-- date Column -->
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef> date </th>
+        <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+</div>

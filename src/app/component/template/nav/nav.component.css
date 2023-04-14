@@ -1,0 +1,10 @@
+
+.sidenav {
+    background-size: cover;
+    background-color:rgb(0,0,0) ;
+    width: 200px;  
+}
+
+.sidenav i {
+    padding-right: 26px;
+}
